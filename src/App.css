@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background-color: brown;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(30, 30, 32);
+  font-weight: 900;
+  font-size: x-large;
+  text-transform:capitalize;
+}
+
