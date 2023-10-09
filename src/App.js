@@ -1,4 +1,7 @@
 import './App.css';
+import DataFetch1 from './components/Fetch/DataFetch1';
+import FindPostById from './components/Fetch/FindPostById';
+import IdFromButtonClick from './components/Fetch/IdFromButtonClick';
 
 // useEffect Hook...........
 import ClassCounterOne from './components/useEffect/ClassCounterOne';
@@ -68,7 +71,12 @@ function App() {
         {/* <HookMouse/> */}
         {/* <MouseContainer/> */}
         {/* <IntervalClassCounter/> */}
-        <INtervalHookCounter/>
+        {/* <INtervalHookCounter/> */}
+
+        {/* Data Fetching */}
+        {/* <DataFetch1/> */}
+        {/* <FindPostById/> */}
+        <IdFromButtonClick/>
     </div>
   );
 }
